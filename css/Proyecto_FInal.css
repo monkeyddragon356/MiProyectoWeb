@@ -57,6 +57,10 @@ li a {
     margin: auto;
     
 }
+h2{
+    text-align: justify;
+}
+
 
 #combo{
     width: 50%;
@@ -187,30 +191,39 @@ b{
         font-size: 27px;
     }
     
-    #sh {
+    /**#s {
         width: 238px;
         height: 300px;
         border-top-right-radius: 25px;
         border-top-left-radius: 25px;
         border-bottom-left-radius: 0px;
         float: none;
-    }
+    }**/
     .pad {
         width: 238px;
         height: 842px;
     }   
-    #sh > #hero-img{
+     #heroimg{
         width: 198px;
         height: 260px;
-        
+        float: none;
     }
     #sh-info {
         width: 238px;
-        height: 542px;
+        height: 842px;
         margin: 0;
         border-radius: 0%;
-        border-bottom-left-radius: 25px;
-        border-bottom-right-radius: 25px;
+        border-radius: 25px;
+        
+    }
+    #inf{
+        width: 242.812px;
+        height: 542px;
+        margin-left: 0px;
+        border-left: 0px;
+        border-top-color: darkblue;
+        border-top-width: 3px;
+        border-top-style: solid;
     }
 
     .pad2 > .bottom {
@@ -251,21 +264,24 @@ b{
         width: 522.27px; 
         height: 295px;
     }
-
-    #sh {
+    /*
+    #s {
         width: 225px;        
         height: 295px;
-    }
-    #sh >#hero-img{
+    }*/
+    #heroimg{
         width: 185px;
         height: 255px;
     }     
     #sh-info{
-        width: 297.27px;
+        width: 518.27px;
         height: 295px;
-        margin-left: 225px;
+
     }
     #inf {
+        width: 293.27px;
+        height: 295px;
+        margin-left: 225px;
         font-size: 11.78px;
     }
     .pad2 > .bottom{
@@ -304,26 +320,28 @@ b{
     .pad{
         width: 734.41px;
         height: 295px;
-    }      
-    #sh {
+    }/**      
+    #s {
         width: 245px;
         height: 295px;
-    }            
-    #sh > #hero-img{
+    }    **/        
+    #heroimg{
         width: 185px;
         height: 255px
     }
 
     #sh-info {
-
-        width: 479.41px;
+        width: 734.41px;
         height: 295px;
-        margin-left: 245px;        
+        margin-left: 0px;        
         margin-right: 0px;
-
     }
+
     #inf {
-        font-size: 14px;
+        width: 509.41px;
+        height: 295px;
+        margin-left: 225px;
+        font-size: px;
     }
 
     .pad2 > .bottom{
@@ -347,6 +365,9 @@ b{
         width: 185px;
         height: 100px;
     }
+    li{
+        width: 734.41;
+    }  
 
 }
 /*     laptops    & Monitores  */
@@ -356,7 +377,7 @@ b{
         height: 100%;  
     }
     #inf{
-        font-size: 16.28px;
+        font-size: 18.28px;
     }
 }
 
@@ -390,22 +411,25 @@ b{
         height: 510px;
         margin-right: 0px;
     }    
-
-    #sh{
+    /**
+    #s{
         width: 450px;
         height: 510px;
-    }         
-    #sh > #hero-img{
+    }  **/       
+    #heroimg{
         width: 410px;
         height: 470px;
     }
     #sh-info{
-        width: 855.63px;
+        width: 1305.63px;
         height: 510px;
-        margin-left: 450px;    
+        margin-left: 0px;    
     }
     #inf{
-        font-size: 24.9px;
+        width: 855px;
+        height: 510px;
+        margin-left: 450px;
+        font-size: 26.6px;
 
     }
     .pad2 > .bottom {

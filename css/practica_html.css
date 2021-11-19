@@ -3,6 +3,7 @@ body{
     height: 400px;
     background-color: blueviolet;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 header{
@@ -29,9 +30,56 @@ main section{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+section > img{
+    width: 200px;
+    height: 200px;
+}
 footer{
     width: 90%;
     height: 2o0px;
     background-color: orange;
     margin: auto;
+}
+/* Smarthphone vertical   */
+@media (max-width:639px){
+    body{
+        margin: 0px;
+    }
+  }
+  
+
+/*     smarthphone horizontal  & tablets vertical*/
+@media only screen and (min-width:640px) and (max-width:1023px){
+    body{
+        margin: 0px;
+    }
+         
+}
+    
+
+
+/*     tablets horizontal & laptop vertical (touch screen)    */
+@media only screen and (min-width:1024px) and (max-width:1279px){
+    body{
+        margin: 0px;
+    }
+                   
+  }
+    
+
+/*     laptops    & Monitores  */
+@media only screen and (min-width:1280px) and (max-width:1919px){
+    body{
+        margin: 0px;
+    }
+}
+    
+
+
+/*     Televisores  */
+    
+@media only screen and (min-width:1920px){
+    body{
+        margin: 0px;
+    }
 }

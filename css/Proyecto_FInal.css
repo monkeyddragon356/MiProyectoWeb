@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {  
+    width: 85%;
+    margin: auto;
+}
+header {
+    padding: 0 10%;
+}
+
+header > h1{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 35px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+#logo {
+    width: 60px;
+    margin-top: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0 10%;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: blue;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#info {
+    width: 70%;
+    margin: auto;
+    
+}
+
+#combo{
+    width: 50%;
+    margin: auto;
+}
+
+#info p{
+    text-align: justify;
+}
+
+form .comb {
+    margin-left: 200px;
+    text-align: left;
+    float: left;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+    color: black;
+}
+  
+li a.active {
+    color: white;
+    background-color: darkblue;
+}
+.pad {  
+    width: 869.750px;
+    height: 314px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#inf {
+    width: 579.75px;
+    height: 350px;
+    border-left-color: darkblue;
+    border-width: 3px;
+    border-left-style: solid; 
+    margin-left: 290px;
+}
+#heroimg {
+    width: 250px;
+    height: 310px;
+    margin: 20px;
+    border-radius: 5px;
+    float: left;
+}
+#sh-info {
+    width: 869.75px;
+    height: 350px;
+    background-color: lightblue;
+    border-color: darkblue;
+    border-style: solid;
+    border-width: 3px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.pad2 {
+  margin-top: 80px;
+}
+
+.pad2 > .bottom {
+  width: 290px;
+  height: 350px;
+  background-color: lightblue;
+  border-color: darkblue;
+  border-width: 3px;
+  border-style: solid;
+  float: left;
+  margin: 0;
+}
+
+.bottom{
+  width: 290px;
+  height: 350px;
+  background-color: lightblue;
+  border-color: darkblue;
+  border-width: 3px;
+  border-style: solid;
+  margin-left: 350px;
+  display: inline-block;
+}
+
+#logbat {
+  width: 250px;
+  height: 135px;
+  margin: 20px;
+}
+#logbat > #bat {
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 5.455px;
+}
+#part1 {
+  width: 250px;
+  height: 155px;
+  margin: 15px 20px 20px ;
+  background-color: blanchedalmond;
+}
+li {
+  text-align: center;
+  list-style-type: none;
+}
+
+p{
+    margin-top: 0px;
+}
+b{
+    margin-top: 16.80px;
+}
+
+#inf {
+    float: none;
+}
+
+
+
+/* Smarthphone vertical   */
+@media (max-width:639px){
+    html {
+        width: 100%;
+        height: 100%;
+    }
+
+    header > h1{
+        margin-left: 3px;
+        font-size: 27px;
+    }
+    
+    #sh {
+        width: 238px;
+        height: 300px;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 0px;
+        float: none;
+    }
+    .pad {
+        width: 238px;
+        height: 842px;
+    }   
+    #sh > #hero-img{
+        width: 198px;
+        height: 260px;
+        
+    }
+    #sh-info {
+        width: 238px;
+        height: 542px;
+        margin: 0;
+        border-radius: 0%;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .pad2 > .bottom {
+        width: 169px;
+        height: 175px;
+    }
+    #logbat{
+        height: 67.5px;
+        width: 125px;
+    }
+    #logbat > #bat {
+        width: 100px;
+        margin-left: 12.5px;
+    } 
+    #part1{
+        width: 125px; 
+        height: 50px;
+    }
+    .bottom{
+        width: 169px;
+        height: 175px;
+        margin: 0px;
+        
+    }
+}
+  
+
+/*     smarthphone horizontal  & tablets vertical*/
+@media only screen and (min-width:640px) and (max-width:1023px){
+    html {
+        width: 100%;
+        height: 100%;
+    }
+    header > h1 {
+        font-size: 39px;
+    }
+    .pad{
+        width: 522.27px; 
+        height: 295px;
+    }
+
+    #sh {
+        width: 225px;        
+        height: 295px;
+    }
+    #sh >#hero-img{
+        width: 185px;
+        height: 255px;
+    }     
+    #sh-info{
+        width: 297.27px;
+        height: 295px;
+        margin-left: 225px;
+    }
+    #inf {
+        font-size: 11.78px;
+    }
+    .pad2 > .bottom{
+        width: 225px;
+        height: 295px;
+    }
+    .bottom{
+        width: 225px;
+        height: 295px; 
+        margin-left: 245px;
+    }
+    #logbat {
+        width: 185px;
+        height: 124.09px;
+    }
+    #logbat > #bat{
+        width: 185px;
+        height: 124.09px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    #part1{
+        width: 185px;
+        height: 109.09px;
+    }
+}
+    
+
+
+/*     tablets horizontal & laptop vertical (touch screen)    */
+@media only screen and (min-width:1024px) and (max-width:1279px){
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    .pad{
+        width: 734.41px;
+        height: 295px;
+    }      
+    #sh {
+        width: 245px;
+        height: 295px;
+    }            
+    #sh > #hero-img{
+        width: 185px;
+        height: 255px
+    }
+
+    #sh-info {
+
+        width: 479.41px;
+        height: 295px;
+        margin-left: 245px;        
+        margin-right: 0px;
+
+    }
+    #inf {
+        font-size: 14px;
+    }
+
+    .pad2 > .bottom{
+        width: 225px;
+        height: 295px;
+    }
+    .bottom{
+        width: 225px;
+        height: 295px;
+        margin-left: 265px;
+    }
+    #logbat{
+        width: 190px;
+    }
+    #logbat > #bat{
+        width: 190px;
+        height: 125px;
+        margin-left: 0px;
+    }
+    #part1 {
+        width: 185px;
+        height: 100px;
+    }
+
+}
+/*     laptops    & Monitores  */
+@media only screen and (min-width:1280px) and (max-width:1919px){
+    html{
+        width: 100%;
+        height: 100%;  
+    }
+    #inf{
+        font-size: 16.28px;
+    }
+}
+
+    
+
+/*     Televisores  */
+    
+@media only screen and (min-width:1920px){
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #logo{
+        width: 120px;
+    }
+    header > h1{
+        font-size: 75px;
+    }
+    ul > li{
+        font-size: 35px;
+    }
+    #info {
+        font-size: 30px;
+    }
+    #heroe{
+        font-size: 30px;
+    }
+    .pad{
+        width: 1000px;
+        height: 510px;
+        margin-right: 0px;
+    }    
+
+    #sh{
+        width: 450px;
+        height: 510px;
+    }         
+    #sh > #hero-img{
+        width: 410px;
+        height: 470px;
+    }
+    #sh-info{
+        width: 855.63px;
+        height: 510px;
+        margin-left: 450px;    
+    }
+    #inf{
+        font-size: 24.9px;
+
+    }
+    .pad2 > .bottom {
+        width: 350px;
+        height: 410px;
+    }   
+    
+    .bottom{
+        width: 350px;
+        height: 410px;
+        margin-left: 390px;
+    }
+    #logbat{ 
+        width: 310px;
+        height: 161.33px;
+    }
+
+    #logbat > #bat{
+        width: 260px;;
+    }
+    #part1{
+        width: 310px;
+        height: 190px;
+        font-size: 26px;
+    }
+}

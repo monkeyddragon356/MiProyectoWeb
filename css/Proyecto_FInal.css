@@ -5,6 +5,7 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #424242;
 }
 
 
@@ -20,7 +21,8 @@ header {
 header > h1{
     display: inline-block;
     margin-left: 30px;
-    font-size: 35px;
+    font-size: 50px;
+    color: #0376f4;
 }
 
 main{
@@ -55,7 +57,7 @@ li a {
 #info {
     width: 70%;
     margin: auto;
-    
+    color: white;
 }
 h2{
     text-align: justify;
@@ -94,22 +96,23 @@ li a.active {
 }
 #inf {
     width: 579.75px;
-    height: 350px;
+    height: 540px;
     border-left-color: darkblue;
     border-width: 3px;
     border-left-style: solid; 
     margin-left: 290px;
 }
+
 #heroimg {
     width: 250px;
-    height: 310px;
+    height: 500px;
     margin: 20px;
     border-radius: 5px;
     float: left;
 }
 #sh-info {
     width: 869.75px;
-    height: 350px;
+    height: 540px;
     background-color: lightblue;
     border-color: darkblue;
     border-style: solid;
@@ -118,6 +121,9 @@ li a.active {
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+}
+.b {
+    font-size: 20px;
 }
 .pad2 {
   margin-top: 80px;
@@ -191,14 +197,6 @@ b{
         font-size: 27px;
     }
     
-    /**#s {
-        width: 238px;
-        height: 300px;
-        border-top-right-radius: 25px;
-        border-top-left-radius: 25px;
-        border-bottom-left-radius: 0px;
-        float: none;
-    }**/
     .pad {
         width: 238px;
         height: 842px;
@@ -210,9 +208,8 @@ b{
     }
     #sh-info {
         width: 238px;
-        height: 842px;
+        height: 1067px;
         margin: 0;
-        border-radius: 0%;
         border-radius: 25px;
         
     }
@@ -264,23 +261,21 @@ b{
         width: 522.27px; 
         height: 295px;
     }
-    /*
-    #s {
-        width: 225px;        
-        height: 295px;
-    }*/
     #heroimg{
         width: 185px;
-        height: 255px;
+        height: 370px;
     }     
     #sh-info{
         width: 518.27px;
-        height: 295px;
+        height: 410px;
 
+    }
+    .b{
+        font-size: 12px;
     }
     #inf {
         width: 293.27px;
-        height: 295px;
+        height: 410px;
         margin-left: 225px;
         font-size: 11.78px;
     }
@@ -320,26 +315,22 @@ b{
     .pad{
         width: 734.41px;
         height: 295px;
-    }/**      
-    #s {
-        width: 245px;
-        height: 295px;
-    }    **/        
+    }
     #heroimg{
         width: 185px;
-        height: 255px
+        height: 425px
     }
 
     #sh-info {
         width: 734.41px;
-        height: 295px;
+        height: 465px;
         margin-left: 0px;        
         margin-right: 0px;
     }
 
     #inf {
         width: 509.41px;
-        height: 295px;
+        height: 465px;
         margin-left: 225px;
         font-size: px;
     }
@@ -411,23 +402,19 @@ b{
         height: 510px;
         margin-right: 0px;
     }    
-    /**
-    #s{
-        width: 450px;
-        height: 510px;
-    }  **/       
+
     #heroimg{
         width: 410px;
-        height: 470px;
+        height: 750px;
     }
     #sh-info{
         width: 1305.63px;
-        height: 510px;
+        height: 790px;
         margin-left: 0px;    
     }
     #inf{
         width: 855px;
-        height: 510px;
+        height: 790px;
         margin-left: 450px;
         font-size: 26.6px;
 
